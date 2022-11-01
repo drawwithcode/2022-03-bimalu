@@ -64,7 +64,7 @@ function draw() {
   noStroke();
   fill("#000000");
   rect(mouseX - 2, mouseY, 3, 30);
-  fill("#FFFFFF");
+  fill("ivory");
   rect(mouseX, mouseY, 7, 50);
   fill("#000000");
   rect(mouseX, mouseY, 4, 30);
@@ -72,7 +72,7 @@ function draw() {
   textFont("Abril Fatface");
   textSize(84);
   textAlign(CENTER);
-  fill("ivory");
+  fill("slateblue");
   text("JAZZ", windowWidth / 3, windowHeight / 5);
 
   textFont("Open Sans");
